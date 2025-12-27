@@ -1,0 +1,36 @@
+# LangChain Core
+langchain==0.1.20
+langchain-community==0.0.38
+langchain-core==0.1.52
+
+# LLM Providers
+langchain-groq==0.1.3
+
+# Document Loaders
+pypdf==4.1.0
+python-docx==1.1.0
+openpyxl==3.1.2
+beautifulsoup4==4.12.3
+lxml>=5.3.0
+
+# Vector Store
+chromadb==0.4.24
+sentence-transformers==2.6.1
+
+# Embeddings
+langchain-huggingface==0.0.1
+
+# Environment Variables
+python-dotenv==1.0.1
+
+# Web Framework (for API)
+fastapi==0.110.0
+uvicorn==0.28.0
+python-multipart==0.0.9
+
+# Utilities
+pydantic>=2.10.0
+pydantic-settings>=2.7.0
+
+# UI Framework
+streamlit==1.40.2

@@ -1,0 +1,19 @@
+{
+    "llms": {
+            "Groq-Llama": {
+                "display_name": "Groq Llama 3.1 70B",
+                "import_module": "langchain_groq",
+                "import_class": "ChatGroq",
+                "load_on_init": "True",
+                "max_input_chars": 120000,
+                "config": {
+                    "model_name": "qwen/qwen3-32b",
+                    "groq_api_key": "ENV:GROQ_API_KEY",
+                    "temperature": 0.0,
+                    "max_tokens": 2048,
+                    "streaming": true
+                }
+            }
+    },
+    "managerLLM": "Groq-Llama"
+}
